@@ -44,3 +44,30 @@ This log records the major prompts, decisions, and implementation checkpoints us
 - Documented the content model and the process for adding projects later.
 
 **Verification checkpoint:** ESLint, TypeScript, and the Next.js production build pass. The services landing page and home page were opened in the live cloud-browser preview.
+
+## 2026-11-10 — Visual review and launch preparation
+
+**Prompts:** “Make me entirely visible,” “When I click on the Menu button…,” and “I meant for the previous photos to go in the leadership in practice area.”
+
+**Actions:**
+
+- Restored the approved blue-shirt portrait and displayed the complete photograph on Home and About.
+- Rebuilt the mobile menu so it closes after navigation and supports outside click, Escape, hover, and a visible menu glyph.
+- Added approved leadership, speaking, and editorial photography to the “Leadership in practice” gallery.
+- Removed stale duplicate starter files after confirming they were not used by the application.
+
+## 2026-11-10 — Final audit and release hardening
+
+**Prompt:** “Proceed with the recommended fixes and launch sequence.”
+
+**Actions:**
+
+- Confirmed Monster Interview is publicly accessible without Vercel authentication.
+- Replaced hardcoded domain metadata with a Vercel-aware canonical site URL.
+- Added generated Open Graph and X/Twitter sharing cards and a custom site icon.
+- Restored Next.js image optimization and lazy loading for below-the-fold gallery photographs.
+- Added active navigation states, keyboard focus styling, and Escape focus return for the mobile menu.
+- Updated the redirected Center for New York City Affairs article URL.
+- Documented deployment and custom-domain configuration.
+
+**Release checkpoint:** Production dependency audit, ESLint, TypeScript, production build, internal route smoke tests, social-card review, navigation QA, and all four featured live-project checks passed.

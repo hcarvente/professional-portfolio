@@ -7,7 +7,7 @@ import { identity, projects, services } from "@/data/portfolio";
 export default function Home() {
   return (
     <>
-      <section className="hero overflow-hidden">
+      <section id="hero" className="hero overflow-hidden">
         <div className="shell grid min-h-[calc(100svh-5rem)] gap-12 py-14 lg:grid-cols-[1.08fr_.92fr] lg:items-center lg:py-20">
           <div className="relative z-10">
             <p className="eyebrow text-cobalt">Technology × leadership × social impact</p>
@@ -21,7 +21,7 @@ export default function Home() {
           </div>
           <div className="hero-portrait-wrap">
             <div className="hero-orbit" aria-hidden="true" />
-            <div className="hero-portrait"><Image src="/images/hernan-portrait.jpg" alt="Hernán Carvente Martinez wearing a light blue shirt and hat" fill priority sizes="(max-width: 1024px) 90vw, 42vw" className="object-cover object-[50%_30%]" /></div>
+            <div className="hero-portrait"><Image src="/images/hernan-portrait.jpg" alt="Hernán Carvente Martinez wearing a light blue shirt and hat" fill preload sizes="(max-width: 1024px) 90vw, 29rem" className="object-contain" /></div>
             <div className="hero-note"><span className="block font-display text-2xl">Purpose, translated.</span><span className="mt-1 block text-sm text-ink/60">From lived insight to useful systems.</span></div>
           </div>
         </div>
@@ -44,9 +44,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section-space bg-sand">
+      <section id="leadership-in-practice" className="section-space bg-sand">
         <div className="shell grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-center">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem] bg-sky"><Image src="/images/hernan-facilitating.jpg" alt="Hernán facilitating a collaborative leadership workshop" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" /></div>
+          <div className="leadership-gallery">
+            <figure className="leadership-gallery-main"><Image src="/images/leadership-circle.jpg" alt="Hernán facilitating an outdoor leadership circle" fill sizes="(max-width: 1024px) 100vw, 34vw" className="object-cover" /></figure>
+            <figure><Image src="/images/hernan-conference-speaking.jpg" alt="Hernán speaking to participants at a conference" fill sizes="(max-width: 640px) 50vw, 17vw" className="object-cover" /></figure>
+            <figure><Image src="/images/hernan-editorial.jpg" alt="Hernán seated thoughtfully in a sunlit room lined with books" fill sizes="(max-width: 640px) 50vw, 17vw" className="object-cover" /></figure>
+          </div>
           <div className="lg:pl-8"><p className="eyebrow text-cobalt">Leadership in practice</p><h2 className="section-title mt-5">The work is technical. The work is human.</h2><p className="mt-6 text-lg leading-8 text-ink/70">Across product development, organizational leadership, and facilitation, I start with the people closest to the challenge. The goal is not novelty for its own sake—it is useful change that teams and communities can carry forward.</p><Link href="/about" className="text-link mt-8 inline-flex">More about my approach <span aria-hidden="true">→</span></Link></div>
         </div>
       </section>

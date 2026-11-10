@@ -100,7 +100,7 @@ export const services = [
 
 export const featuredMedia = [
   { type: "Essay", title: "Self-Isolation May Feel Like Jail—It’s Nothing Compared to Youth Prison", publication: "Teen Vogue", href: "https://www.teenvogue.com/story/self-isolation-is-not-jail" },
-  { type: "Essay", title: "Four Steps to an NYC ‘Healing Revolution’", publication: "Center for New York City Affairs", href: "https://www.centernyc.org/urban-matters-2/four-steps-to-an-nyc-healing-revolution" },
+  { type: "Essay", title: "Four Steps to an NYC ‘Healing Revolution’", publication: "Center for New York City Affairs", href: "https://www.centernyc.org/publications-collection/four-steps-to-an-nyc-healing-revolution" },
   { type: "Writing", title: "Essays on leadership, healing, and collective liberation", publication: "Medium", href: "https://carventehernan.medium.com/" },
   { type: "Podcast", title: "From Prison to Purpose with Hernan Carvente-Martinez", publication: "Career Cheat Code", href: "https://careercheatcode.buzzsprout.com/305750/episodes/17685093-081-from-prison-to-purpose-with-hernan-carvente-martinez" },
   { type: "Webinar", title: "Advancing Art & Advocacy for Youth and Young Adults", publication: "Grantmakers in the Arts", href: "https://www.giarts.org/webinar/2021/Advancing-Art-%26-Advocacy" },

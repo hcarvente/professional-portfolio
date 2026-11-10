@@ -22,7 +22,7 @@ export default function AboutPage() {
       <PageHero eyebrow="About" title="A builder, strategist, and leader shaped by lived experience." intro="My work sits at the intersection of technology, organizational leadership, healing, and social change. I help turn complex challenges into clearer choices, stronger programs, and useful tools." />
       <section className="section-space">
         <div className="shell grid gap-12 lg:grid-cols-[.82fr_1.18fr] lg:items-start">
-          <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] bg-sky lg:sticky lg:top-28"><Image src="/images/hernan-portrait.jpg" alt="Portrait of Hernán Carvente Martinez" fill sizes="(max-width: 1024px) 100vw, 40vw" className="object-cover object-[50%_30%]" /></div>
+          <div className="relative aspect-[3278/4589] overflow-hidden rounded-[2rem] bg-[#050708] lg:sticky lg:top-28"><Image src="/images/hernan-portrait.jpg" alt="Portrait of Hernán Carvente Martinez wearing a light blue shirt and hat" fill sizes="(max-width: 1024px) 100vw, 40vw" className="object-contain" /></div>
           <div className="space-y-7 text-lg leading-8 text-ink/72">
             <p className="font-display text-3xl leading-snug text-ink sm:text-4xl">I believe the best systems are built with people, not simply delivered to them.</p>
             <p>As a social entrepreneur and nonprofit executive, I have led organizations, designed leadership experiences, facilitated difficult conversations, and helped move ideas from vision into practice.</p>
