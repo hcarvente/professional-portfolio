@@ -84,3 +84,14 @@ This log records the major prompts, decisions, and implementation checkpoints us
 - Added descriptive alternative text for each project screenshot.
 
 **Verification checkpoint:** ESLint and the Next.js production build pass.
+
+## 2026-11-12 — Secondary-page spacing refinement
+
+**Prompt:** Reduce the excess white space at the top of the About and Projects pages.
+
+**Actions:**
+
+- Reduced the shared secondary-page hero’s top and bottom padding across About, Projects, Services, Speaking/Writing/Research, and Contact.
+- Tightened the first content section after each page hero while preserving the existing spacing between later sections.
+
+**Verification checkpoint:** ESLint and the Next.js production build pass.
