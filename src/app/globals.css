@@ -61,14 +61,11 @@ a { color:inherit; text-decoration:none; }
 .project-visual::before { content:""; position:absolute; width:18rem; height:18rem; border:1px solid rgb(255 255 255/.55); border-radius:50%; right:-5rem; top:-7rem; }
 .project-visual-blue { background:#a9d8ef; } .project-visual-coral { background:#e98a70; } .project-visual-gold { background:#e6bf68; } .project-visual-green { background:#83aa96; }
 .project-index { position:absolute; top:1.4rem; left:1.5rem; font-family:ui-monospace,monospace; font-size:.75rem; font-weight:700; }
-.browser-frame { position:relative; width:min(100%,25rem); transform:rotate(-2deg); border:1px solid rgb(20 33 42/.18); border-radius:.8rem; background:var(--cream); box-shadow:0 28px 50px rgb(20 33 42/.18); transition:transform .25s ease; }
+.browser-frame { position:relative; width:min(100%,31rem); overflow:hidden; transform:rotate(-2deg); border:1px solid rgb(20 33 42/.18); border-radius:.8rem; background:var(--cream); box-shadow:0 28px 50px rgb(20 33 42/.18); transition:transform .25s ease; }
 .project-card:hover .browser-frame { transform:rotate(0deg) scale(1.02); }
 .browser-bar { display:flex; gap:.35rem; border-bottom:1px solid rgb(20 33 42/.12); padding:.6rem; }
 .browser-bar i { width:.45rem; height:.45rem; border-radius:50%; background:rgb(20 33 42/.28); }
-.browser-content { display:grid; gap:.65rem; padding:1.5rem; }
-.browser-content span { height:.8rem; border-radius:999px; background:rgb(20 33 42/.14); }
-.browser-content span:first-child { width:55%; height:2.5rem; background:var(--ink); }
-.browser-content span:nth-child(2) { width:90%; } .browser-content span:nth-child(3) { width:72%; }
+.project-screenshot { position:relative; aspect-ratio:2.05/1; overflow:hidden; background:white; }
 .text-link,.text-link-muted { display:inline-flex; align-items:center; gap:.4rem; font-size:.9rem; font-weight:750; }
 .text-link { color:var(--cobalt); } .text-link-muted { color:rgb(20 33 42/.55); }
 .text-link:hover,.text-link-muted:hover,.link-line:hover { text-decoration:underline; text-underline-offset:.25rem; }

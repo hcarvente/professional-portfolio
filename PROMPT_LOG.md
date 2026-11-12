@@ -71,3 +71,16 @@ This log records the major prompts, decisions, and implementation checkpoints us
 - Documented deployment and custom-domain configuration.
 
 **Release checkpoint:** Production dependency audit, ESLint, TypeScript, production build, internal route smoke tests, social-card review, navigation QA, and all four featured live-project checks passed.
+
+## 2026-11-12 — Project-card screenshots
+
+**Prompt:** “I need to add screenshots to the 4 cards.”
+
+**Actions:**
+
+- Added current screenshots for OpenRaiz, Monster Interview, Data USA Snapshot, and the Alianza Leadership Program.
+- Cropped away desktop and browser controls while preserving each product interface.
+- Replaced the abstract card placeholders with responsive, optimized Next.js images.
+- Added descriptive alternative text for each project screenshot.
+
+**Verification checkpoint:** ESLint and the Next.js production build pass.

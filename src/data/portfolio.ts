@@ -20,6 +20,8 @@ export type Project = {
   slug: string;
   title: string;
   kicker: string;
+  image: string;
+  imageAlt: string;
   summary: string;
   problem: string;
   built: string;
@@ -36,6 +38,8 @@ export const projects: Project[] = [
     slug: "openraiz",
     title: "OpenRaiz",
     kicker: "Opportunity discovery platform",
+    image: "/images/openraiz-project.png",
+    imageAlt: "OpenRaiz opportunity discovery platform with bilingual navigation, search, and opportunity categories",
     summary: "A bilingual platform designed to make professional opportunities easier to discover, understand, and act on.",
     problem: "Mission-driven opportunities are often scattered across websites and described in ways that create unnecessary barriers for emerging leaders.",
     built: "I directed the product concept, researched the problem, designed the experience, and worked with AI-assisted development tools to build a searchable bilingual platform with opportunity filters, account pathways, and interview-practice entry points.",
@@ -50,6 +54,8 @@ export const projects: Project[] = [
     slug: "monster-interview",
     title: "Monster Interview",
     kicker: "AI interview practice",
+    image: "/images/monster-interview-project.png",
+    imageAlt: "Monster Interview practice application showing three themed AI interviewer options",
     summary: "An AI-assisted practice experience that helps people prepare for interviews with focused, role-aware feedback.",
     problem: "Interview preparation can feel abstract and inaccessible, especially when people do not have a coach or trusted person available to practice with.",
     built: "I shaped the product direction, designed the user flow, and used AI-assisted development to create an interactive interview-practice application powered by Google Gemini.",
@@ -64,6 +70,8 @@ export const projects: Project[] = [
     slug: "data-usa-snapshot",
     title: "Data USA Snapshot",
     kicker: "Public-data exploration",
+    image: "/images/data-usa-project.png",
+    imageAlt: "Data USA Snapshot dashboard showing workforce size, average earnings, and industry comparisons",
     summary: "A focused data experience that turns public economic data into clear, interactive comparisons.",
     problem: "Large public datasets can be difficult to navigate when someone needs a quick, understandable view of population and economic trends.",
     built: "I researched the Data USA API, designed the interface, and built selectors and charts that let visitors explore live public data without working directly with raw API responses.",
@@ -78,6 +86,8 @@ export const projects: Project[] = [
     slug: "alianza-leadership-program",
     title: "Alianza Leadership Program",
     kicker: "Program landing experience",
+    image: "/images/alianza-leadership-project.png",
+    imageAlt: "Alianza Leadership Program landing page describing the program, stipend, format, and eligibility",
     summary: "A public-facing landing page that introduces Alianza’s leadership-development pathway and invites people into the program.",
     problem: "A strong leadership program needs a clear digital front door that communicates its purpose, audience, and next step without overwhelming visitors.",
     built: "I translated the program’s purpose into a responsive web experience, shaping the information hierarchy, visual presentation, and calls to action.",
